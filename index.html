@@ -3,22 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-<meta name="theme-color" content="#24b6f0">
+<meta name="theme-color" content="#63bdf2">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Flappy Retro">
 <link rel="manifest" href="manifest.webmanifest">
 <title>Flappy Retro</title>
 <style>
-*{box-sizing:border-box}
-html,body{margin:0!important;padding:0!important;width:100%!important;height:100%!important;overflow:hidden!important;background:#24b6f0!important;touch-action:none!important}
+html,body{margin:0!important;padding:0!important;width:100%!important;height:100%!important;overflow:hidden!important;background:#63bdf2!important;touch-action:none!important}
 body{position:fixed!important;inset:0!important}
-#game{position:absolute!important;left:0!important;top:0!important;width:100%!important;height:100%!important;display:block!important;margin:0!important;padding:0!important;border:0!important;background:#24b6f0}
+canvas{position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;display:block!important}
 </style>
 </head>
 <body>
-<canvas id="game"></canvas>
-<script src="game.js?v=5"></script>
-<script>if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js?v=5").catch(()=>{});</script>
+<canvas id="game" width="400" height="700"></canvas>
+<script src="game.js?v=10"></script>
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js?v=10").catch(()=>{});</script>
 </body>
 </html>
