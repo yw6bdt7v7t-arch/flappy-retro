@@ -1,6 +1,23 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#24b6f0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Flappy Retro"><link rel="manifest" href="manifest.webmanifest"><title>Flappy Retro</title><style>
-html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#24b6f0;touch-action:none;-webkit-user-select:none;user-select:none}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#24b6f0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Flappy Retro">
+<link rel="manifest" href="manifest.webmanifest">
+<title>Flappy Retro</title>
+<style>
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:#24b6f0;touch-action:none}
 body{position:fixed;inset:0}
-canvas{position:fixed;inset:0;width:100vw;height:100dvh;display:block;background:#24b6f0}
-#hint{display:none}
-</style></head><body><canvas id="game" width="400" height="760"></canvas><script src="game.js?v=8"></script><script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js?v=7").catch(()=>{});</script></body></html>
+#game{position:fixed;inset:0;width:100vw;height:100dvh;display:block;margin:0;padding:0;border:0}
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<script src="game.js?v=6"></script>
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js?v=6").catch(()=>{});</script>
+</body>
+</html>
