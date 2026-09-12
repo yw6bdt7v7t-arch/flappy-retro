@@ -3,8 +3,8 @@
   "short_name":"Flappy Retro",
   "start_url":"./",
   "display":"standalone",
+  "background_color":"#0e1520",
+  "theme_color":"#72c8f7",
   "orientation":"portrait",
-  "background_color":"#72c7ff",
-  "theme_color":"#72c7ff",
   "icons":[]
 }
