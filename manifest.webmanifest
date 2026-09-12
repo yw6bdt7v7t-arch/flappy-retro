@@ -1,0 +1,10 @@
+{
+  "name":"Flappy Retro",
+  "short_name":"Flappy Retro",
+  "start_url":"./",
+  "display":"standalone",
+  "orientation":"portrait",
+  "background_color":"#72c7ff",
+  "theme_color":"#72c7ff",
+  "icons":[]
+}
